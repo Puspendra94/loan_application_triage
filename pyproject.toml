@@ -1,0 +1,14 @@
+[project]
+name = "loan-application-triage"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.1.0",
+    "langchain-core>=0.1.0",
+    "langchain-groq>=0.1.0",
+    "langgraph>=0.1.0",
+    "arize-phoenix>=0.1.0",
+    "openinference-instrumentation-langchain>=0.1.0"
+]
