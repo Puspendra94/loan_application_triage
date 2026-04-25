@@ -12,14 +12,8 @@ from .state import LoanApplicationState
 from .agents.intake import intake_agent
 from .agents.verification import verification_agent
 from .agents.decision import decision_agent
+from .agents.human_verification import human_review_agent
 from .util.llm import get_tools
-
-
-def human_review_agent(state: LoanApplicationState) -> LoanApplicationState:
-    """
-    Human review agent - placeholder for human intervention.
-    """
-    return state
 
 
 def route_after_decision(state: LoanApplicationState) -> str:
